@@ -1,0 +1,116 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+body {
+    color: #A9A9A9;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.gray-bg {
+    background-color: #fafafa;
+}
+
+.service-bg-1 {
+    background-image: url(../img/service-bg-1.jpg)
+}
+
+.service-bg-2 {
+    background-image: url(../img/service-bg-2.jpg)
+}
+
+.service-bg-3 {
+    background-image: url(../img/service-bg-3.jpg)
+}
+
+.service-bg-4 {
+    background-image: url(../img/service-bg-4.jpg)
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-tittle {
+    margin-bottom: 60px;
+}
+
+.section-tittle h2 {
+    font-size: 25px;
+    color: #333;
+}
+
+.single-service-item {
+    background-color: #fff;
+    transition: .3s;
+}
+
+.service-bg {
+    height: 225px;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-content {
+    padding: 20px;
+}
+
+.service-more-btn {
+    display: inline-block;
+    color: #1CA261;
+    padding: 10px 0px;
+    border-radius: 50px;
+    margin-top: 5px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.service-more-btn i.fa {
+    padding-left: 10px;
+}
+
+.service-more-btn:hover {
+    background-color: #1CA261;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.single-service-item:hover {
+    box-shadow: 0 0 10px #1CA261;
+}
